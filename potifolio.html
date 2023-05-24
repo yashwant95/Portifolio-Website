@@ -6,6 +6,17 @@
     <link href="styles.css" rel="stylesheet">
 </head>
 <body>
+    <section>
+        <div class="navbar" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#achieve">Achievements</a>
+            <a href="#contact">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+    </section>
     <section class="bgimage" id="home">
         <div class="container-fluid">
             <div class="row">
@@ -16,7 +27,7 @@
             </div>
         </div>
     </section><hr color="red" width="auto">
-    <section class="bgimage2">
+    <section class="bgimage2" id="about">
         <div class="container-fluid">
             <h1 class="text-center"><U>About Me</U></h1>
             <div class="row mt-4">
@@ -39,8 +50,8 @@
                 </p>
             </div>
         </div>
-    </section>
-    <section class="bgimage3">
+    </section><hr color="red" width="auto">
+    <section class="bgimage3" id="achieve">
         <div class="container-fluid">
             <h1 class="text-center"><u>Achievements and languages i Know</u></h1>
             <ul>
@@ -56,8 +67,8 @@
                 <li>C and C++</li>
             </ul>
         </div>
-    </section>
-    <section>
+    </section><hr color="red" width="auto">
+    <section id="contact">
         <div class="container">
             <form action="action_page.php"><h1>Contact me</h1><br>
       
@@ -83,5 +94,5 @@
       
             </form>
       </div> 
-    </section>   
+    </section><hr color="red" width="auto"> 
 </body>
